@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shopdh:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>shopdh</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="shopdh-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="shopdh:war exploded" />
+    </root>
+  </artifact>
+</component>
